@@ -1,0 +1,49 @@
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# built modules
+dist/
+build/
+setup.py
+
+# Some extras here incase poetry dumps anything in the root directory (which it has done on install from experience)
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Python
+*.py[cod]
+__pycache__
+venv/
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.mypy_cache/
+
+# Node/npm
+node_modules
+
+# Editors
+*.sublime-workspace
+*.sublime-project # unless most use Sublime
+.vscode
+*.code-workspace
+.idea
+*.swp
+*~
+
+# Misc
+.DS_Store

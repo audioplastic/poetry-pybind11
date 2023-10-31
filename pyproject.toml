@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "poetry-pybind11"
+version = "0.1.0"
+description = ""
+authors = ["Nick Clark <dr.nrclark@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pybind11 = ">=2.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=5.2"
+
+[tool.poetry.build]
+script = "build.py"
+generate-setup-file = true
+
+[build-system]
+requires = [
+    "poetry-core>=1.1.0",
+    "setuptools>=65.4.1",
+    "pybind11>=2.8.0"
+]
+build-backend = "poetry.core.masonry.api"
